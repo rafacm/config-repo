@@ -6,3 +6,6 @@ service:
   definition:
     metadata:
       uri: http://${spring.application.name}.${application.domain:cfapps.io}
+
+foo:
+  bar: zee
